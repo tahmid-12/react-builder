@@ -36,7 +36,13 @@ const Navbar = () => {
             animate={controls}
             transition={{ duration: 0.5, ease: 'easeInOut' }}
           >
-            {open ? <CloseIcon /> : <MenuIcon />}
+            {open ? <CloseIcon style={{ 
+                  width: "37px",
+                  height: "42px"
+             }} /> : <MenuIcon style={{ 
+              width: "37px",
+              height: "42px"
+         }}/>}
           </motion.div>
         </Icons>
       </NavBar>
